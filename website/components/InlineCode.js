@@ -1,4 +1,18 @@
-import {colors} from '../assets/moonlight';
+const colors = {
+  indigo: '#818abf',
+  cyan: '#87e1fc',
+  red: '#ff6569',
+  lightRed: '#ff9fb1',
+  teal: '#4fd6be',
+  gray: '#7a808a',
+  skyBlue: '#49c3ff',
+  blue: '#85a9ff',
+  yellow: '#ffc07c',
+  orange: '#ff895b',
+  purple: '#c096ff',
+  green: '#cff894',
+  pink: '#fca7ea',
+};
 
 export const InlineCode = ({children, ...props}) => {
   // literals
